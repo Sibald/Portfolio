@@ -1,0 +1,27 @@
+.about h1{
+    margin-bottom: 50px;
+}
+.about p{
+    margin-bottom: 50px;
+}
+#header {
+    float: right;
+    padding-right: 100px;
+}
+.column {
+    padding-right: 30px;
+}
+footer{
+	text-align:center;
+	background-color: lightgray;
+}
+#intro {
+	padding-top: 50px;
+
+}
+body{
+	padding-left: 20px;
+}
+.row{
+	padding-top: 500px;
+}
