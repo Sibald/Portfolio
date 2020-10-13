@@ -5,24 +5,37 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Home</title>
 </head>
+<body>
 <header>
-    <ul class="nav justify-content-end">
-    <li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="about.html">About & CV</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="work.html">Work</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="blog.html">Blog</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-</ul>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../home" class="active">Home</a></li>
+                    <li><a href="../about" class="active">About</a></li>
+                    <li class="dropdown"><a class='dropdown-toggle' id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false" href="#">Services <i
+                            class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="website-design">Website Design</a>
+                        </div>
+                    </li>
+                    <li><a href="../our-work" class="hire">Our Work</a></li>
+                    <li><a href="../contact" class="hire">contact</a></li>
+                    <li><a href="../contact" class='clients'>Inquire Now <i class='fa fa-envelope-o'></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <ul>
+        <li><h2>Logo</h2></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
 </header>
 <main>
     <div id="intro">
@@ -37,35 +50,36 @@
 <h2>The best of my works</h2>
 <div class="row">
     <div class="column">
-        <img src="https://via.placeholder.com/100" alt="" style="width:100%">
-        <h4>Project xyz</h4>
-        <p>qsdqdqsdqsqsffngffng</p>
+        <img src="assets/images/pixelhost.jpg" alt="Company logo Pixelhost" style="width:50%">
+        <h4>Pixelhost</h4>
+        <p>placeholder</p>
+    </div>
+    <div class="column">
+        <img src="assets/images/Ulocation-svg.svg" alt="Company logo uLocation" style="width:100%">
+        <h4>uLocation</h4>
+        <p>placeholder</p>
     </div>
     <div class="column">
         <img src="https://via.placeholder.com/100" alt="" style="width:100%">
-        <h4>Project 123</h4>
-        <p>qsdqdqsdqsqsffngffng</p>
-    </div>
-    <div class="column">
-        <img src="https://via.placeholder.com/100" alt="" style="width:100%">
-        <h4>Project abc</h4>
-        <p>qsdqdqsdqsqsffngffng</p>
+        <h4>placeholder</h4>
+        <p>placeholder</p>
     </div>
     <div class="column">
         <img src="https://via.placeholder.com/100" alt="" style="width:100%">
         <h4>Project azerty</h4>
-        <p>qsdqdqsdqsqsffngffng</p>
+        <p>placeholder</p>
     </div>
 </div>
 <div class="jumbotron" style="margin-top: 100px">
     <div class="container">
         <h2>Want to work together?</h2>
 <p>I'm looking for a job // I'm looking for freelance work //..</p>
-<button>Contact me</button>
+<button><a href="contact.html">Contact me</a></button>
         <br><br><br>
     </div>
 </div>
 <a href="https://docs.google.com/document/d/1kX8Xjdk6s97t2hq7HDbT4DhA4R3qXbzl_NJd0EcYb_c/edit?usp=sharing">Document studieprocess (Google drive link</a>
 </main>
 <footer>Sibald Gemeen - Copyright © 2020 Sibald Gemeen. All Rights Reserved. Contact <a href="mailto:sibald@sibaldgemeen.com">sibald@sibaldgemeen.com</a></footer>
+</body>
 </html>

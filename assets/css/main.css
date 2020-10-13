@@ -1,3 +1,21 @@
+/*Navbar*/
+li {
+    display: inline;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+li h2{
+    text-align: left;
+}
 .about h1{
     margin-bottom: 50px;
 }
@@ -24,4 +42,8 @@ body{
 }
 .row{
 	padding-top: 500px;
+}
+
+.container{
+    text-align: center;
 }
