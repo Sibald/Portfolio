@@ -1,18 +1,51 @@
 /*Navbar*/
-li {
-    display: inline;
-    float: right;
+.navbar{
+    background-color:/*#333333*/white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding:10px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav-link-wrapper{
+    height: 1.2rem;
+    border-bottom:  1px solid transparent;
+    transition: border-bottom 0.5s;
 }
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+.navbar >.left-side>div{
+    margin-right: 2rem;
+    font-size: 0.9em;
 }
+.navbar >.right-side >div{
+    margin-right: 2rem;
+    font-size: 0.9em;
+
+}
+
+.left-side{
+    display:flex;
+    align-items: center;
+}
+
+.nav-link-wrapper a{
+    color:black;
+    text-decoration: none;
+    transition: color 0.5S;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black; /*3587A4*/
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+#logo{
+    width: 3rem;
+    padding-right: 0.6rem;
+}
+
 li h2{
     text-align: left;
 }
