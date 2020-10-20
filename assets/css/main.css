@@ -1,27 +1,41 @@
 /*Navbar*/
 .navbar{
-    background-color:/*#333333*/white;
-    display:flex;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    text-transform: uppercase;
-    padding:10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 90%;
 }
-.nav-link-wrapper{
-    height: 1.2rem;
-    border-bottom:  1px solid transparent;
-    transition: border-bottom 0.5s;
+.navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.navbar >.left-side>div{
-    margin-right: 2rem;
-    font-size: 0.9em;
+.navbar nav ul li{
+    padding: 1rem;
+    margin: 0;
 }
-.navbar >.right-side >div{
-    margin-right: 2rem;
-    font-size: 0.9em;
 
+.navbar nav ul li:hover{
+    border-bottom: 1px solid black;
 }
 
+.navbar nav ul li a{
+    color: inherit;
+}
+#logo h1 {
+    color: blue;
+    text-decoration: underline;
+    font-size: 120%;
+    font-weight: bold;
+    width: 100%;
+}
 .left-side{
     display:flex;
     align-items: center;
@@ -45,6 +59,12 @@
     width: 3rem;
     padding-right: 0.6rem;
 }
+body{
+    margin: 0;
+}
+main{
+    margin-left: 50px;
+}
 
 li h2{
     text-align: left;
@@ -59,9 +79,6 @@ li h2{
     float: right;
     padding-right: 100px;
 }
-.column {
-    padding-right: 30px;
-}
 footer{
 	text-align:center;
 	background-color: lightgray;
@@ -70,13 +87,22 @@ footer{
 	padding-top: 50px;
 
 }
-body{
-	padding-left: 20px;
-}
 .row{
 	padding-top: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container{
     text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td{
+    padding: 1rem;
+}
+.titles
+{
+    font-weight: bolder;
 }
